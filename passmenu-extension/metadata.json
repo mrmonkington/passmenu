@@ -1,6 +1,6 @@
 {
   "name": "Passmenu",
-  "description": "A Wayland-compatible dmenu replacement for pass.",
+  "description": "A dmenu type interface for pass.",
   "uuid": "passmenu@verynoisy.com",
   "shell-version": [
     "45",
@@ -11,5 +11,5 @@
     "50"
   ],
   "settings-schema": "org.gnome.shell.extensions.passmenu",
-  "url": "https://github.com/verynoisy/passmenu"
+  "url": "https://github.com/mrmonkington/passmenu"
 }
