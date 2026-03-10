@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/shell/extensions/passmenu/" id="org.gnome.shell.extensions.passmenu">
+    <key name="pass-shortcut" type="as">
+      <default>['&lt;Super&gt;p']</default>
+      <summary>Passmenu shortcut</summary>
+      <description>Shortcut to open the passmenu dialog.</description>
+    </key>
+    <key name="otp-shortcut" type="as">
+      <default>['&lt;Super&gt;o']</default>
+      <summary>OTP shortcut</summary>
+      <description>Shortcut to copy the OTP of the last selected password.</description>
+    </key>
+    <key name="password-store-dir" type="s">
+      <default>'~/.pers-pass'</default>
+      <summary>Password store directory</summary>
+      <description>Directory containing the .gpg password files.</description>
+    </key>
+    <key name="otp-window-seconds" type="i">
+      <default>15</default>
+      <summary>OTP Window (seconds)</summary>
+      <description>Seconds to wait for the OTP shortcut after copying a password.</description>
+    </key>
+  </schema>
+</schemalist>

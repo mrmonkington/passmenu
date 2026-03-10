@@ -1,0 +1,15 @@
+{
+  "name": "Passmenu",
+  "description": "A Wayland-compatible dmenu replacement for pass.",
+  "uuid": "passmenu@verynoisy.com",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.passmenu",
+  "url": "https://github.com/verynoisy/passmenu"
+}
